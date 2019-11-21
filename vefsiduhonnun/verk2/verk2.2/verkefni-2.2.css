@@ -1,0 +1,18 @@
+.normal li{
+    display: block;
+    border: 3px dashed purple;
+    margin: 1em;
+    padding: 1em;
+}
+.inline li{
+    display: inline;
+    border: 3px dashed black;
+    margin: 1em;
+    padding: 1em;
+}
+.inlineblock li{
+    display: inline-block;
+    border: 3px dashed green;
+    margin: 1em;
+    padding: 1em;
+}

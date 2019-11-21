@@ -1,0 +1,74 @@
+body{
+    margin: 1em auto;
+    max-width: 60em;
+    padding: 1em;
+    font-family: 'PT Sans', sans-serif;
+    background-color: black;
+    color: white;
+}
+
+/*-- Grid Area --*/
+.haus {
+    grid-area: haus;
+    text-align: center;
+}
+.allt {
+    grid-area: allt;
+}
+.topnav{
+    grid-area: topnav;
+}
+.foot{
+    grid-area: foot;
+}
+/*--Dálkar í allt--*/
+.as1{
+    grid-area: as1;
+    padding-right: 1em;
+}
+.art2{
+    grid-area: art2;
+    padding:2em;
+}
+.as2{
+    grid-area: as2;
+    padding-left: 2em;
+}
+.art1{
+    grid-area: art1;
+}
+/*-- grid template area--*/
+.allt {
+    display: grid;
+    grid-gap: 1em;
+    grid-template-areas: 
+        "topnav"
+        "haus"
+        "container"
+        "foot"
+}
+
+/*-- innri tög í main --*/
+.container {
+    display:grid;
+    grid-gap: 1em;
+    grid-template-areas: 
+        "as1 art1"
+        "as2 art2";
+    grid-template-columns: 2fr 3fr;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+/*--flex box--*/
+.topmenu, .footmenu{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    padding: 1em 0 0 0;
+    margin: 0;
+    padding:1em;
+    background-color: steelblue;
+}
+.topmenu li, .topmenu li{
+    list-style-type: none;
+}
