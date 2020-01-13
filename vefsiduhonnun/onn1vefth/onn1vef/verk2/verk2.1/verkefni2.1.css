@@ -1,0 +1,25 @@
+h1{
+    border: solid 3px;
+    padding: .5em;
+    margin: .5em;
+}
+.boxybox{
+    border: solid green 5px;
+    padding: .2em;
+    margin: 2em
+}
+.divilisious{
+    border: solid red;
+    margin: .5em;
+    padding: .5em;
+}
+.divydiv{
+    border: solid purple;
+    margin: 1em;
+    padding: 1em
+}
+.hippety{
+    border: dotted blue;
+    margin:.2;
+    padding: .2em;
+}

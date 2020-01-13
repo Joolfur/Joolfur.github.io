@@ -1,0 +1,91 @@
+body{
+    margin: 1em auto;
+    max-width: 60em;
+    padding: 1em;
+    background-color: #221F1F;
+}
+a{
+    color: white;
+}
+/*-- Grid Area --*/
+.haus {
+    grid-area: haus;
+    text-align: center;
+    border-left: solid 1px;
+    border-right: solid 1px;
+    border-top: solid 1px;
+    background-color: #E50914;
+    font-family: 'Notable', sans-serif;
+}
+.allt {
+    grid-area: allt;
+}
+.topnav{
+    grid-area: topnav;
+    background-color: #E50914
+}
+.foot{
+    grid-area: foot;
+    color: white;
+}
+/*--Dálkar í allt--*/
+.as1{
+    grid-area: as1;
+    padding-right: 1em;
+    border-bottom:solid #221F1F;
+}
+.art2{
+    grid-area: art2;
+    padding:2em;
+    border-bottom:solid #221F1F;
+}
+.as2{
+    grid-area: as2;
+    padding-left: 2em;
+}
+.art1{
+    grid-area: art1;
+}
+.box1{
+    grid-area: box1;
+}
+.box2{
+    grid-area:box2;
+    border-left: solid #221F1F;
+}
+/*-- grid template area--*/
+.allt {
+    display: grid;
+    grid-gap: 1em;
+    grid-template-areas: 
+        "topnav"
+        "haus"
+        "container"
+        "foot"
+}
+
+/*-- innri tög í main --*/
+.container {
+    display:grid;
+    grid-gap: 1em;
+    grid-template-areas: 
+       "box1 box2";
+    grid-template-rows: 3fr 3fr;
+    padding: 1em;
+    background-color: #F5F5F1;
+    font-family: 'Roboto Mono', monospace;
+    max-height: 90em
+}
+/*--flex box--*/
+.topmenu, .footmenu{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    padding: 1em 0 0 0;
+    margin: 0;
+    padding:1em;
+    background-color: #221F1F;
+}
+.topmenu li, .topmenu li{
+    list-style-type: none;
+} 
