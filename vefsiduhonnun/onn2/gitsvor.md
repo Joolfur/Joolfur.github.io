@@ -14,5 +14,5 @@
     * git branch - skráir hvaða grin þú ert á
 4. Hvað er útgáfustýring (Version Control)? - Það er kerfi sem skráir niður breytingar í skjali.
 5. Hverjir eru helstu kostir við að nota GIT? - Þú getur mjög léttilega verið með skjalið þitt á tveimur stöðum, það er auðvelt að vinna í hópum.
-6. Hversu oft telur þú að eigi að gera færslur (commit) í verkefni?
+6. Hversu oft telur þú að eigi að gera færslur (commit) í verkefni? - Eftir hverja stóru breytingu
 7. Hvað er átt við með “Working Directory”?” og “Staging Area” í GIT? - það er staðurinn sem þú ert að vinna í.
