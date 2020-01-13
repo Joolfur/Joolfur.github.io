@@ -12,7 +12,7 @@
     * git log - setur upp fyrrverandi commit eins og his 
     * git checkout - Skoðar hvort að greinin sem þú ert á sé eins og á githbub
     * git branch - skráir hvaða grin þú ert á
-4. Hvað er útgáfustýring (Version Control)?
-5. Hverjir eru helstu kostir við að nota GIT?
+4. Hvað er útgáfustýring (Version Control)? - Það er kerfi sem skráir niður breytingar í skjali.
+5. Hverjir eru helstu kostir við að nota GIT? 
 6. Hversu oft telur þú að eigi að gera færslur (commit) í verkefni?
 7. Hvað er átt við með “Working Directory”?” og “Staging Area” í GIT? - það er staðurinn sem þú ert að vinna í.
